@@ -168,7 +168,7 @@ export default function ProfilePage() {
                 <div key={i} className="flex-1 flex flex-col items-center gap-3 group">
                   <motion.div
                     initial={{ height: 0 }}
-                    animate={{ height: \`\${h}%\` }}
+                    animate={{ height: `${h}%` }}
                     transition={{ delay: 0.4 + i * 0.05, duration: 0.8, ease: "easeOut" }}
                     className="w-8 md:w-12 rounded-t-md bg-[rgba(255,255,255,0.08)] border-x border-t border-[rgba(255,255,255,0.1)] group-hover:bg-[rgba(255,255,255,0.15)] transition-colors relative overflow-hidden"
                   >
