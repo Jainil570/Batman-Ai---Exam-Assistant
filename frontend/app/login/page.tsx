@@ -478,7 +478,7 @@ export default function LoginPage() {
               </div>
 
               <div className="signin-row">
-                <p>Don't have an account? <Link href="/signup">Sign up</Link></p>
+                <p>Don&apos;t have an account? <Link href="/signup">Sign up</Link></p>
               </div>
             </form>
           </div>
